@@ -1,0 +1,45 @@
+.player-container,
+.computer-container{
+    padding: 10px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    flex: 2;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.window-container{
+    border: 1px solid white;
+    flex: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-container img{
+    display: block;
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.picked{
+    flex: 3;
+    margin-bottom: 5px;
+}
+
+.picked img{
+    height: 100px;
+}
+
+.result{
+    flex: 1;
+    margin-bottom: 5px;
+}
+
+.score{
+    flex: 1;
+}
